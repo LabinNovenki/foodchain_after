@@ -1,0 +1,155 @@
+<html>
+<head>
+<title>pom.xml</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #e8bf6a;}
+.s1 { color: #bababa;}
+.s2 { color: #6a8759;}
+.s3 { color: #a9b7c6;}
+.s4 { color: #808080;}
+</style>
+</head>
+<body bgcolor="#2b2b2b">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+pom.xml</font>
+</center></td></tr></table>
+<pre><span class="s0">&lt;?</span><span class="s1">xml version</span><span class="s2">=&quot;1.0&quot; </span><span class="s1">encoding</span><span class="s2">=&quot;UTF-8&quot;</span><span class="s0">?&gt;</span>
+<span class="s0">&lt;project </span><span class="s1">xmlns</span><span class="s2">=&quot;http://maven.apache.org/POM/4.0.0&quot; </span><span class="s1">xmlns:xsi</span><span class="s2">=&quot;http://www.w3.org/2001/XMLSchema-instance&quot;</span>
+	<span class="s1">xsi:schemaLocation</span><span class="s2">=&quot;http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd&quot;</span><span class="s0">&gt;</span>
+	<span class="s0">&lt;modelVersion&gt;</span><span class="s3">4.0.0</span><span class="s0">&lt;/modelVersion&gt;</span>
+	<span class="s0">&lt;parent&gt;</span>
+		<span class="s0">&lt;groupId&gt;</span><span class="s3">org.springframework.boot</span><span class="s0">&lt;/groupId&gt;</span>
+		<span class="s0">&lt;artifactId&gt;</span><span class="s3">spring-boot-starter-parent</span><span class="s0">&lt;/artifactId&gt;</span>
+		<span class="s0">&lt;version&gt;</span><span class="s3">2.5.2</span><span class="s0">&lt;/version&gt;</span>
+		<span class="s0">&lt;relativePath/&gt; </span><span class="s4">&lt;!-- lookup parent from repository --&gt;</span>
+	<span class="s0">&lt;/parent&gt;</span>
+	<span class="s0">&lt;groupId&gt;</span><span class="s3">com.wuhan</span><span class="s0">&lt;/groupId&gt;</span>
+	<span class="s0">&lt;artifactId&gt;</span><span class="s3">tracedemo</span><span class="s0">&lt;/artifactId&gt;</span>
+	<span class="s0">&lt;version&gt;</span><span class="s3">0.0.1-SNAPSHOT</span><span class="s0">&lt;/version&gt;</span>
+	<span class="s0">&lt;name&gt;</span><span class="s3">demo</span><span class="s0">&lt;/name&gt;</span>
+	<span class="s0">&lt;description&gt;</span><span class="s3">Demo project for Spring Boot</span><span class="s0">&lt;/description&gt;</span>
+	<span class="s0">&lt;properties&gt;</span>
+		<span class="s0">&lt;java.version&gt;</span><span class="s3">1.8</span><span class="s0">&lt;/java.version&gt;</span>
+		<span class="s0">&lt;mysql.version&gt;</span><span class="s3">8.0.14</span><span class="s0">&lt;/mysql.version&gt;</span>
+	<span class="s0">&lt;/properties&gt;</span>
+
+	<span class="s0">&lt;dependencies&gt;</span>
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">org.springframework.boot</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">spring-boot-starter-web</span><span class="s0">&lt;/artifactId&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">com.baomidou</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">mybatis-plus-boot-starter</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s0">&lt;version&gt;</span><span class="s3">3.4.1</span><span class="s0">&lt;/version&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">com.alibaba</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">druid-spring-boot-starter</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s0">&lt;version&gt;</span><span class="s3">1.1.17</span><span class="s0">&lt;/version&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">mysql</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">mysql-connector-java</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s4">&lt;!--&lt;version&gt;8.0.14&lt;/version&gt;--&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">org.slf4j</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">slf4j-api</span><span class="s0">&lt;/artifactId&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">log4j</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">log4j</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s0">&lt;version&gt;</span><span class="s3">1.2.16</span><span class="s0">&lt;/version&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">org.aspectj</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">aspectjweaver</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s0">&lt;version&gt;</span><span class="s3">1.9.3</span><span class="s0">&lt;/version&gt; </span><span class="s4">&lt;!--可以查查最新版--&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+
+		<span class="s4">&lt;!-- swagger --&gt;</span>
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">io.springfox</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">springfox-swagger2</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s0">&lt;version&gt;</span><span class="s3">2.9.2</span><span class="s0">&lt;/version&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">io.springfox</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">springfox-swagger-ui</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s0">&lt;version&gt;</span><span class="s3">2.9.2</span><span class="s0">&lt;/version&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+
+		<span class="s4">&lt;!-- shiro --&gt;</span>
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">org.apache.shiro</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">shiro-spring</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s0">&lt;version&gt;</span><span class="s3">1.4.1</span><span class="s0">&lt;/version&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+
+		<span class="s4">&lt;!-- 配置 JWT --&gt;</span>
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">com.auth0</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">java-jwt</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s0">&lt;version&gt;</span><span class="s3">3.4.1</span><span class="s0">&lt;/version&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">org.springframework.boot</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">spring-boot-devtools</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s0">&lt;scope&gt;</span><span class="s3">runtime</span><span class="s0">&lt;/scope&gt;</span>
+			<span class="s0">&lt;optional&gt;</span><span class="s3">true</span><span class="s0">&lt;/optional&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">org.projectlombok</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">lombok</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s0">&lt;optional&gt;</span><span class="s3">true</span><span class="s0">&lt;/optional&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">org.springframework.boot</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">spring-boot-starter-test</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s0">&lt;scope&gt;</span><span class="s3">test</span><span class="s0">&lt;/scope&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+
+		<span class="s4">&lt;!-- swagger --&gt;</span>
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">io.springfox</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">springfox-swagger2</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s0">&lt;version&gt;</span><span class="s3">2.9.2</span><span class="s0">&lt;/version&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+		<span class="s0">&lt;dependency&gt;</span>
+			<span class="s0">&lt;groupId&gt;</span><span class="s3">io.springfox</span><span class="s0">&lt;/groupId&gt;</span>
+			<span class="s0">&lt;artifactId&gt;</span><span class="s3">springfox-swagger-ui</span><span class="s0">&lt;/artifactId&gt;</span>
+			<span class="s0">&lt;version&gt;</span><span class="s3">2.9.2</span><span class="s0">&lt;/version&gt;</span>
+		<span class="s0">&lt;/dependency&gt;</span>
+
+	<span class="s0">&lt;/dependencies&gt;</span>
+
+	<span class="s0">&lt;build&gt;</span>
+		<span class="s0">&lt;plugins&gt;</span>
+			<span class="s0">&lt;plugin&gt;</span>
+				<span class="s0">&lt;groupId&gt;</span><span class="s3">org.springframework.boot</span><span class="s0">&lt;/groupId&gt;</span>
+				<span class="s0">&lt;artifactId&gt;</span><span class="s3">spring-boot-maven-plugin</span><span class="s0">&lt;/artifactId&gt;</span>
+				<span class="s0">&lt;configuration&gt;</span>
+					<span class="s0">&lt;excludes&gt;</span>
+						<span class="s0">&lt;exclude&gt;</span>
+							<span class="s0">&lt;groupId&gt;</span><span class="s3">org.projectlombok</span><span class="s0">&lt;/groupId&gt;</span>
+							<span class="s0">&lt;artifactId&gt;</span><span class="s3">lombok</span><span class="s0">&lt;/artifactId&gt;</span>
+						<span class="s0">&lt;/exclude&gt;</span>
+					<span class="s0">&lt;/excludes&gt;</span>
+				<span class="s0">&lt;/configuration&gt;</span>
+			<span class="s0">&lt;/plugin&gt;</span>
+		<span class="s0">&lt;/plugins&gt;</span>
+	<span class="s0">&lt;/build&gt;</span>
+
+<span class="s0">&lt;/project&gt;</span>
+</pre>
+</body>
+</html>

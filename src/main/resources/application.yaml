@@ -1,0 +1,25 @@
+server:
+  port: 8816
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3307/goodtrace?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 794613
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis-plus:
+  mapper-locations: classpath*:mapper/**/*.xml
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
+logging:
+  level:
+    com.wuhan.tracedemo.controller: DEBUG
+    com.wuhan.tracedemo.mapper: DEBUG
+    org.apache.ibatis: DEBUG
+    org.springfromework.web: INFO
+  file:
+    name: logs/spring-boot-logging.log
