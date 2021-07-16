@@ -29,8 +29,6 @@ public class CommentCodeServiceImpl implements CommentCodeService {
                 }
                 result.append(Long.toString((int) hash[i] & 0xff, 16));
             }
-
-            System.out.print(result.toString());
             commentCode.setCommentid(result.toString());
         } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
