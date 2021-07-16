@@ -61,6 +61,19 @@ public class DatabaseController {
         return ResponseMsg.successResponse("successfully sigh up");
     }
 
+    @ResponseBody
+    @GetMapping("/merchant/{id}")
+    public Merchant getMerchantById(@RequestParam("id") String id){
+        return merchantService.getById(id);
+    }
+
+    @ResponseBody
+    @GetMapping("/merchant/{name}")
+    public Merchant getMerchantByName(@RequestParam("name") String name){
+        return merchantService.getByName(name);
+    }
+
+
 
 
 }

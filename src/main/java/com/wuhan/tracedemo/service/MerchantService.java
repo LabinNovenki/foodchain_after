@@ -9,7 +9,7 @@ import com.wuhan.tracedemo.entity.UserLoginParam;
  * @Email:gem7991@dingtalk.com
  */
 public interface MerchantService {
-    Merchant getById(Long id);
+    Merchant getById(String id);
     void authentic(UserLoginParam userEntity);
     Long saveMerchant(Merchant merchant);
     Merchant getByName(String name);

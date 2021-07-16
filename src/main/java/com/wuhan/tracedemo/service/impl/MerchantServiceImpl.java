@@ -18,7 +18,7 @@ public class MerchantServiceImpl implements MerchantService {
     @Autowired
     MerchantMapper merchantMapper;
 
-    public Merchant getById(Long id){
+    public Merchant getById(String id){
         return merchantMapper.getById(id);
     }
 
