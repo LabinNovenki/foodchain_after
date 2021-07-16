@@ -19,7 +19,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-@Api(value = "Login", tags = "登录验证")
+//@Api(value = "Login", tags = "登录验证")
 @CrossOrigin(maxAge = 3600)
 @RestController
 public class LoginController extends BaseController {

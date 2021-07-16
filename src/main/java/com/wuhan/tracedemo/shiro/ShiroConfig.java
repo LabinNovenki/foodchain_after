@@ -41,7 +41,10 @@ public class ShiroConfig {
 		// 访问 /unauthorized/** 不通过JWTFilter
 		filterRuleMap.put("/unauthorized/**", "anon");
 		filterRuleMap.put("/login", "anon");
-		filterRuleMap.put("/merchantlogin", "anon"); // 可匿名访问
+		filterRuleMap.put("/merchantlogin", "anon");
+		filterRuleMap.put("/commentCode/getComment", "anon");
+		filterRuleMap.put("/commentCode/commitComment", "anon");
+		// 可匿名访问
 
 		// swagger
 		filterRuleMap.put("/swagger**/**", "anon");

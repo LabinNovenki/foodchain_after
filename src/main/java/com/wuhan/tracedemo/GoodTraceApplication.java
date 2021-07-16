@@ -3,6 +3,9 @@ package com.wuhan.tracedemo;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import com.wuhan.tracedemo.contract.JRContract;
+
+import java.io.IOException;
 
 /*
 @author: Labin
@@ -14,7 +17,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class GoodTraceApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
+		JRContract.initMychainEnv();
+		JRContract.initSdk();
 		SpringApplication.run(GoodTraceApplication.class, args);
 	}
 

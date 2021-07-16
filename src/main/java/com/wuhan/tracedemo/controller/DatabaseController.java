@@ -18,8 +18,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import com.wuhan.tracedemo.entity.Merchant;
 import com.wuhan.tracedemo.service.MerchantService;
-import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
 
 import java.util.HashMap;
 import java.util.List;
@@ -77,18 +76,21 @@ public class DatabaseController {
 
     @Autowired
     CommentCodeService commentCodeService;
-    @GetMapping("/commentCode/getComment")
-    public String saveCommentCode(@RequestParam("user") String userid) {
+    @GetMapping("/commentCode/saveCommentCode")
+    public ResponseMsg saveCommentCode(@RequestParam("user") String userid) {
         CommentCode commentCode;
         commentCode = commentCodeService.createCommentCode(userid);
         commentCodeService.saveCommentCode(commentCode);
-        String url = "http://localhost:8816/commentCode/writeComment?user="
-                + merchantService.getById(userid).getUserid()
-                + "&id=" + commentCode.getCommentid();
-        return url;
+        Merchant merchant = merchantService.getById(userid);
+        String merchantName = merchant.getName();
+        String url = "http://localhost:8081/comment?name="
+                + merchantName
+                + "&tokenid=" + commentCode.getCommentid();
+        return ResponseMsg.successResponse(url);
     }
 
-    @GetMapping("/commentCode/commitComment")
+    /*
+    @GetMapping("/commentCode/checkCommentCode")
     public boolean commitCommentCode(@RequestParam(value="id") String commentid,
                                      @RequestParam(value="comment") String comment) {
         CommentCode commentCode;
@@ -104,5 +106,5 @@ public class DatabaseController {
         } else {
             return false;
         }
-    }
+    }*/
 }
