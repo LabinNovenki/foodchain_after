@@ -1,6 +1,8 @@
 package com.wuhan.tracedemo.controller;
 
 import com.wuhan.tracedemo.common.ResponseMsg;
+import com.wuhan.tracedemo.entity.CommentCode;
+import com.wuhan.tracedemo.service.CommentCodeService;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -73,7 +75,34 @@ public class DatabaseController {
         return merchantService.getByName(name);
     }
 
+    @Autowired
+    CommentCodeService commentCodeService;
+    @GetMapping("/commentCode/getComment")
+    public String saveCommentCode(@RequestParam("user") String userid) {
+        CommentCode commentCode;
+        commentCode = commentCodeService.createCommentCode(userid);
+        commentCodeService.saveCommentCode(commentCode);
+        String url = "http://localhost:8816/commentCode/writeComment?user="
+                + merchantService.getById(userid)
+                + "&id=" + commentCode.getCommentid();
+        return url;
+    }
 
+    @GetMapping("/commentCode/commitComment")
+    public boolean commitCommentCode(@RequestParam(value="id") String commentid,
+                                     @RequestParam(value="comment") String comment) {
+        CommentCode commentCode;
+        commentCode = commentCodeService.getCommentCode(commentid);
 
+        if (commentCode.is_used() == false) {
 
+            // 连接智能合约
+            System.out.println(comment);
+
+            commentCodeService.updateCommentCode(commentid);
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
