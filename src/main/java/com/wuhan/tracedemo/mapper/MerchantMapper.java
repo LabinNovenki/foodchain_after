@@ -20,6 +20,7 @@ public interface MerchantMapper {
     @Select("select * from merchant where name=#{name}")
     public Merchant getByName(String name);
 
+
     @Insert("insert into merchant(`name`,`address`, `introduction`, `phone`,`password`) " +
             "values(#{name},#{address},#{introduction}, #{phone},#{password})")
     public Long insert(Merchant merchant);
