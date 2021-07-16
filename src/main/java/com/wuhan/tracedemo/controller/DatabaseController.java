@@ -4,6 +4,7 @@ import com.wuhan.tracedemo.common.ResponseMsg;
 import com.wuhan.tracedemo.entity.CommentCode;
 import com.wuhan.tracedemo.service.CommentCodeService;
 import io.swagger.annotations.Api;
+import org.apache.ibatis.jdbc.Null;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
@@ -24,6 +25,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import com.wuhan.tracedemo.contract.CommentInfo;
+import com.wuhan.tracedemo.contract.JRContract;
 
 @Api(value = "DataBase", tags = "数据库接口")
 @Slf4j
@@ -73,36 +76,5 @@ public class DatabaseController {
     @GetMapping("/merchant/{name}")
     public Merchant getMerchantByName(@RequestParam("name") String name){
         return merchantService.getByName(name);
-    }
-
-    @Autowired
-    CommentCodeService commentCodeService;
-    @GetMapping("/commentCode/getComment")
-    public String saveCommentCode(@RequestParam("user") String userid) {
-        CommentCode commentCode;
-        commentCode = commentCodeService.createCommentCode(userid);
-        commentCodeService.saveCommentCode(commentCode);
-        String url = "http://localhost:8816/commentCode/writeComment?user="
-                + merchantService.getById(userid)
-                + "&id=" + commentCode.getCommentid();
-        return url;
-    }
-
-    @GetMapping("/commentCode/commitComment")
-    public boolean commitCommentCode(@RequestParam(value="id") String commentid,
-                                     @RequestParam(value="comment") String comment) {
-        CommentCode commentCode;
-        commentCode = commentCodeService.getCommentCode(commentid);
-
-        if (commentCode.is_used() == false) {
-
-            // 连接智能合约
-            System.out.println(comment);
-
-            commentCodeService.updateCommentCode(commentid);
-            return true;
-        } else {
-            return false;
-        }
     }
 }
