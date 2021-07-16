@@ -18,7 +18,7 @@ public class MerchantServiceImpl implements MerchantService {
     @Autowired
     MerchantMapper merchantMapper;
 
-    public Merchant getById(Long id){
+    public Merchant getById(String id){
         return merchantMapper.getById(id);
     }
 
@@ -40,7 +40,7 @@ public class MerchantServiceImpl implements MerchantService {
         }
 
         //TODO(salt is not set, should be set in concat())
-        String code = userEntity.getAccount().concat(userEntity.getPassword()).concat("9908d5426d9f0c84212c362b07154000");
+        String code = userEntity.getPassword();
         String md5Password = DigestUtils.md5DigestAsHex(code.getBytes());
         System.out.println("pwd:"+userEntity.getPassword()+"pwdmd5:" +md5Password);
         if(!merchant.getPassword().equals(md5Password)){

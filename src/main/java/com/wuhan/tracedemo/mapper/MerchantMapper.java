@@ -14,11 +14,12 @@ import org.apache.ibatis.annotations.Select;
 
 @Mapper
 public interface MerchantMapper {
-    @Select("select * from merchant where id=#{id}")
-    public Merchant getById(Long id);
+    @Select("select * from merchant where userid=#{id}")
+    public Merchant getById(String id);
 
     @Select("select * from merchant where name=#{name}")
     public Merchant getByName(String name);
+
 
     @Insert("insert into merchant(`name`,`address`, `introduction`, `phone`,`password`) " +
             "values(#{name},#{address},#{introduction}, #{phone},#{password})")

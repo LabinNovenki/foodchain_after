@@ -1,5 +1,6 @@
 package com.wuhan.tracedemo.controller;
 
+import com.wuhan.tracedemo.common.ResponseMsg;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -53,10 +54,26 @@ public class DatabaseController {
     MerchantService merchantService;
 
     @PostMapping("/merchant/add")
-    public Long saveMerchant(@RequestBody Merchant merchant) {
+    public ResponseMsg saveMerchant(@RequestBody Merchant merchant) {
         log.info(merchant.toString());
+        merchant.md5password();
         merchantService.saveMerchant(merchant);
-        return merchant.getId();
+        return ResponseMsg.successResponse("successfully sigh up");
     }
+
+    @ResponseBody
+    @GetMapping("/merchant/{id}")
+    public Merchant getMerchantById(@RequestParam("id") String id){
+        return merchantService.getById(id);
+    }
+
+    @ResponseBody
+    @GetMapping("/merchant/{name}")
+    public Merchant getMerchantByName(@RequestParam("name") String name){
+        return merchantService.getByName(name);
+    }
+
+
+
 
 }
