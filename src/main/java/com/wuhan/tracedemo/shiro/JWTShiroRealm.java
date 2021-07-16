@@ -1,9 +1,10 @@
 package com.wuhan.tracedemo.shiro;
 
 
+import com.wuhan.tracedemo.entity.Merchant;
 import com.wuhan.tracedemo.entity.User;
 import com.wuhan.tracedemo.jwt.JwtToken;
-import com.wuhan.tracedemo.service.UserService;
+import com.wuhan.tracedemo.service.MerchantService;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
@@ -11,6 +12,7 @@ import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.springframework.beans.factory.annotation.Autowired;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -20,7 +22,7 @@ import java.util.List;
  */
 public class JWTShiroRealm extends AuthorizingRealm {
     @Autowired
-    private UserService userService;
+    private MerchantService merchantService;
 
     /**
      * 限定这个 Realm 只处理我们自定义的 JwtToken
@@ -42,13 +44,13 @@ public class JWTShiroRealm extends AuthorizingRealm {
             throw new AccountException("JWT token参数异常！");
         }
         // 从 JwtToken 中获取当前用户
-        String username = authenticationToken.getPrincipal().toString();
-        User user = userService.getUserByName(username);
-        if (user == null) {
+        String userid = authenticationToken.getPrincipal().toString();
+        Merchant merchant = merchantService.getById(userid);
+        if (merchant == null) {
             throw new UnknownAccountException("用户不存在！");
         } else {
             // 这里验证authenticationToken和simpleAuthenticationInfo的信息
-            SimpleAuthenticationInfo simpleAuthenticationInfo = new SimpleAuthenticationInfo(user, username, getName());
+            SimpleAuthenticationInfo simpleAuthenticationInfo = new SimpleAuthenticationInfo(merchant, userid, getName());
             return simpleAuthenticationInfo;
         }
     }
@@ -60,12 +62,15 @@ public class JWTShiroRealm extends AuthorizingRealm {
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         // 获取登录用户名
         //User currentUser = (User) SecurityUtils.getSubject().getPrincipal();
-        User currentUser = (User) principalCollection.getPrimaryPrincipal();
+        Merchant currentMerchant = (Merchant) principalCollection.getPrimaryPrincipal();
 
         // 查询用户名称
-        User user = userService.getUserByName(currentUser.getName());
-        List<String> permissionList = userService.queryAllPerms(user.getId());
+        Merchant merchant = merchantService.getById(currentMerchant.getUserid());
+        //TODO(a merchant can get all perms)
+        //List<String> permissionList = merchantService.queryAllPerms(merchant.getId());
         // 添加角色和权限
+        List<String> permissionList = Arrays.asList
+                ("logistic:view","logistic:add","logistic:edit", "logistic:delete");
         SimpleAuthorizationInfo simpleAuthorizationInfo = new SimpleAuthorizationInfo();
         for (String p : permissionList) {
             simpleAuthorizationInfo.addStringPermission(p);

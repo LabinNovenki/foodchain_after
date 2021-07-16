@@ -45,7 +45,7 @@ public class LoginController extends BaseController {
         }
 
         Merchant merchant = CurrentMerchantService.getMerchant();
-        String jwtToken = JwtUtils.sign(merchant.getName(), JwtUtils.SECRET);
+        String jwtToken = JwtUtils.sign(merchant.getUserid(), JwtUtils.SECRET);
         Map<String, Object> result = new HashMap<>();
         result.put("token",jwtToken);
         System.out.println(jwtToken);

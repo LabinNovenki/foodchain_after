@@ -60,8 +60,12 @@ public class JwtFilter extends BasicHttpAuthenticationFilter {
     @Override
     protected boolean isAccessAllowed(ServletRequest request, ServletResponse response, Object mappedValue) {
         // 原用来判断是否是登录请求，在本例中不会拦截登录请求，用来检测Header中是否包含 JWT token 字段
+        System.out.println(((HttpServletRequest) request).getHeader(JwtUtils.AUTH_HEADER));
         if (this.isLoginRequest(request, response))
-            return true;
+        {
+            System.out.println("isLoginRequest.");
+            return false;
+        }
         //TODO
         boolean allowed = false; // it should be false, modified for debug
         try {

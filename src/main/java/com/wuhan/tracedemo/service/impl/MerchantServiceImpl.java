@@ -33,7 +33,9 @@ public class MerchantServiceImpl implements MerchantService {
     }
 
     public void authentic(UserLoginParam userEntity) {
-        Merchant merchant = merchantMapper.getByName(userEntity.getAccount());
+        Merchant merchant = merchantMapper.getById(userEntity.getAccount());
+        System.out.println(userEntity.getAccount());
+        System.out.println(merchant);
 
         if(null == merchant){
             throw new BizException(StatusCode.AUTH_INVALID_CLIENT.getRtCode(), "用户名不存在或联盟中无该用户");

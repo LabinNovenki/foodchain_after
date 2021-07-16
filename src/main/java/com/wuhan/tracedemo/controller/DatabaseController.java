@@ -64,13 +64,13 @@ public class DatabaseController {
     }
 
     @ResponseBody
-    @GetMapping("/merchant/{id}")
+    @GetMapping("/merchant")
     public Merchant getMerchantById(@RequestParam("id") String id){
         return merchantService.getById(id);
     }
 
     @ResponseBody
-    @GetMapping("/merchant/{name}")
+    @GetMapping("/merchant2/{name}")
     public Merchant getMerchantByName(@RequestParam("name") String name){
         return merchantService.getByName(name);
     }
@@ -83,7 +83,7 @@ public class DatabaseController {
         commentCode = commentCodeService.createCommentCode(userid);
         commentCodeService.saveCommentCode(commentCode);
         String url = "http://localhost:8816/commentCode/writeComment?user="
-                + merchantService.getById(userid)
+                + merchantService.getById(userid).getUserid()
                 + "&id=" + commentCode.getCommentid();
         return url;
     }

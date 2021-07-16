@@ -55,6 +55,7 @@ public class AuthController extends BaseController {
 
         logger.info(user.getName() +"登录");
 
+
         return ResponseMsg.successResponse(result);
     }
 
