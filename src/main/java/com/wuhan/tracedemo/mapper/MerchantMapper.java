@@ -21,8 +21,8 @@ public interface MerchantMapper {
     public Merchant getByName(String name);
 
 
-    @Insert("insert into merchant(`name`,`address`, `introduction`, `phone`,`password`) " +
-            "values(#{name},#{address},#{introduction}, #{phone},#{password})")
+    @Insert("insert into merchant(`name`,`address`, `introduction`, `phone`,`password`, `userid`, `set_time`) " +
+            "values(#{name},#{address},#{introduction}, #{phone},#{password},#{userid},#{set_time})")
     public Long insert(Merchant merchant);
 
 }

@@ -30,6 +30,7 @@ public class JwtCredentialsMatcher implements CredentialsMatcher {
 
         String token = authenticationToken.getCredentials().toString();
         String username = authenticationToken.getPrincipal().toString();
+        System.out.println("usertokenname:" + username);
         try {
             Algorithm algorithm = Algorithm.HMAC256(JwtUtils.SECRET);
             JWTVerifier verifier = JWT.require(algorithm).withClaim("username", username).build();

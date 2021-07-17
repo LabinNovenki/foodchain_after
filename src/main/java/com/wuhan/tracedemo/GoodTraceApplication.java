@@ -6,6 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.wuhan.tracedemo.contract.JRContract;
 
 import java.io.IOException;
+
 /*
 @author: Labin
 @modified_time:2021/7/16 9:50
@@ -17,9 +18,7 @@ import java.io.IOException;
 public class GoodTraceApplication {
 
 	public static void main(String[] args) throws IOException {
-		//step 1:init mychain env.
-        JRContract.initMychainEnv();
-        //step 2: init sdk client
+		JRContract.initMychainEnv();
 		JRContract.initSdk();
 		SpringApplication.run(GoodTraceApplication.class, args);
 	}

@@ -32,6 +32,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
         User user = baseMapper.getUserByName(userEntity.getAccount()) ;
 
         if(null == user){
+
             throw new BizException(StatusCode.AUTH_INVALID_CLIENT.getRtCode(), "用户名不存在或联盟中无该用户");
         }
 

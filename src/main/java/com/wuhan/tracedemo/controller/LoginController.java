@@ -19,7 +19,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 
-@Api(value = "Login", tags = "登录验证")
+//@Api(value = "Login", tags = "登录验证")
 @CrossOrigin(maxAge = 3600)
 @RestController
 public class LoginController extends BaseController {
@@ -45,7 +45,7 @@ public class LoginController extends BaseController {
         }
 
         Merchant merchant = CurrentMerchantService.getMerchant();
-        String jwtToken = JwtUtils.sign(merchant.getName(), JwtUtils.SECRET);
+        String jwtToken = JwtUtils.sign(merchant.getUserid(), JwtUtils.SECRET);
         Map<String, Object> result = new HashMap<>();
         result.put("token",jwtToken);
         System.out.println(jwtToken);

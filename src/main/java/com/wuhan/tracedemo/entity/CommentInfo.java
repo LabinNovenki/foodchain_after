@@ -1,4 +1,4 @@
-package com.wuhan.tracedemo.contract;
+package com.wuhan.tracedemo.entity;
 
 
 import java.math.BigInteger;
@@ -7,15 +7,18 @@ public class CommentInfo {
     public String comment;
     public BigInteger block;
     public String time;
+    public int star;
 
-    public CommentInfo(String _com, BigInteger _blo, String _time) {
+    public CommentInfo(String _com, BigInteger _blo, String _time, int _star) {
         comment = _com;
         block = _blo;
         time = _time;
+        star = _star;
     }
     public void display() {
         System.out.println("评论： " + comment);
         System.out.println("区块号： " + block);
         System.out.println("时间： " + time);
+        System.out.println("评分： " + star);
     }
 }

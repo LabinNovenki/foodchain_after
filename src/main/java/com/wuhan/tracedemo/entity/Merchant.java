@@ -11,6 +11,7 @@ import java.util.Date;
 public class Merchant {
     private Long id;
     private String name;
+    private String userid;
     private String password;
     private String address;
     private Date set_time;
