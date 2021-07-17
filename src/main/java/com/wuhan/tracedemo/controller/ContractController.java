@@ -19,6 +19,7 @@ import java.util.Map;
 @Slf4j
 @RestController
 public class ContractController {
+    @Autowired
     MerchantService merchantService;
     @Autowired
     CommentCodeService commentCodeService;
@@ -44,10 +45,12 @@ public class ContractController {
 
     @ResponseBody
     @GetMapping("/getComment")
-    public ResponseMsg getComment(@RequestParam(value="userid") String userid) {
+    public ResponseMsg getComment(@RequestParam(value="name") String name) {
         CommentInfo commentInfos[];
 
-        commentInfos = JRContract.callContractQueryComment(userid);
+        Merchant merchant = merchantService.getByName(name);
+
+        commentInfos = JRContract.callContractQueryComment(merchant.getUserid());
         SimpleComment[] sim = new SimpleComment[commentInfos.length];
 
         System.out.println("\n########################################\n");

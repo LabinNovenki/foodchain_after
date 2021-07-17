@@ -6026,3 +6026,965 @@ java.lang.NoSuchMethodException: com.wuhan.tracedemo.controller.ContractControll
 2021-07-17 10:36:41.357 [main      ] com.wuhan.tracedemo.contract.JRContract  info[101]: set transport : com.alipay.mychain.sdk.network.netty.TcpClientTransport
 2021-07-17 10:36:41.360 [main      ] com.wuhan.tracedemo.contract.JRContract  info[101]: channel start ...
 2021-07-17 10:36:41.369 [main      ] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:40:36.327 [main      ] com.wuhan.tracedemo.contract.JRContract  info[101]: set transport : com.alipay.mychain.sdk.network.netty.TcpClientTransport
+2021-07-17 11:40:36.330 [main      ] com.wuhan.tracedemo.contract.JRContract  info[101]: channel start ...
+2021-07-17 11:40:36.342 [main      ] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:40:39.358 [main      ] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:40:40.725 [main      ] com.wuhan.tracedemo.contract.JRContract  info[106]: channel connect 706655fffe27017f-00005bf0-00000001-12b1472e279d456a-a3938c21, 
+2021-07-17 11:40:40.725 [main      ] com.wuhan.tracedemo.contract.JRContract  info[106]: connect to 47.103.163.48:18130, async, success
+2021-07-17 11:40:40.725 [main      ] com.wuhan.tracedemo.contract.JRContract  info[106]: handshake, start timeout:3000
+2021-07-17 11:40:41.121 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[101]: set transport : com.alipay.mychain.sdk.network.netty.TcpClientTransport
+2021-07-17 11:40:41.121 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[101]: channel start ...
+2021-07-17 11:40:41.121 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:40:41.162 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[106]: channel connect 706655fffe27017f-00005bf0-00000002-3d105858279d4722-bdf08a72, 
+2021-07-17 11:40:41.162 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[106]: connect to 47.103.163.48:18130, async, success
+2021-07-17 11:40:41.162 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[106]: handshake, start timeout:3000
+2021-07-17 11:40:41.730 [tartedMain] c.wuhan.tracedemo.GoodTraceApplication   logStarting[55]: Starting GoodTraceApplication using Java 1.8.0_292 on LAPTOP-7P4FJ2M9 with PID 23536 (C:\Users\ASUS\Desktop\CS\notes\blockchain\demo_projects\tracedemo07171055\tracedemo\target\classes started by ASUS in C:\Users\ASUS\Desktop\CS\notes\blockchain\demo_projects\tracedemo07171055\tracedemo)
+2021-07-17 11:40:41.731 [tartedMain] c.wuhan.tracedemo.GoodTraceApplication   logStartupProfileInfo[659]: No active profile set, falling back to default profiles: default
+2021-07-17 11:40:41.786 [tartedMain] .e.DevToolsPropertyDefaultsPostProcessor logTo[255]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-17 11:40:41.787 [tartedMain] .e.DevToolsPropertyDefaultsPostProcessor logTo[255]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-17 11:40:43.114 [tartedMain] org.apache.ibatis.logging.LogFactory     setImplementation[105]: Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-17 11:40:43.291 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'shiroConfig' of type [com.wuhan.tracedemo.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$b33510d8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:43.495 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:43.500 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$428a4401] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:43.502 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$1e6dccd9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:43.504 [tartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure dataSource[56]: Init DruidDataSource
+2021-07-17 11:40:43.568 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:43.611 [tartedMain] com.alibaba.druid.pool.DruidDataSource   init[1003]: {dataSource-1} inited
+2021-07-17 11:40:43.611 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:43.976 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":1,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:40:44.027 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":1,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:40:44.332 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":1,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:40:44.372 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":1,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:40:47.689 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:47.693 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:47.699 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'merchantMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:47.701 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'merchantMapper' of type [com.sun.proxy.$Proxy77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:47.701 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'merchantServiceImpl' of type [com.wuhan.tracedemo.service.impl.MerchantServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:47.701 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'jwtShiroRealm' of type [com.wuhan.tracedemo.shiro.JWTShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:47.706 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:47.728 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:40:48.367 [tartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  initialize[108]: Tomcat initialized with port(s): 8816 (http)
+2021-07-17 11:40:48.378 [tartedMain] o.a.coyote.http11.Http11NioProtocol      log[173]: Initializing ProtocolHandler ["http-nio-8816"]
+2021-07-17 11:40:48.378 [tartedMain] o.apache.catalina.core.StandardService   log[173]: Starting service [Tomcat]
+2021-07-17 11:40:48.378 [tartedMain] org.apache.catalina.core.StandardEngine  log[173]: Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-17 11:40:48.506 [tartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       log[173]: Initializing Spring embedded WebApplicationContext
+2021-07-17 11:40:48.506 [tartedMain] w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext[290]: Root WebApplicationContext: initialization completed in 6719 ms
+2021-07-17 11:40:49.399 [tartedMain] pertySourcedRequestMappingHandlerMapping initHandlerMethods[69]: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-17 11:40:49.707 [tartedMain] o.s.b.d.a.OptionalLiveReloadServer       startServer[58]: LiveReload server is running on port 35729
+2021-07-17 11:40:49.973 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":2,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:40:50.012 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":2,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:40:50.180 [tartedMain] o.a.coyote.http11.Http11NioProtocol      log[173]: Starting ProtocolHandler ["http-nio-8816"]
+2021-07-17 11:40:50.191 [tartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  start[220]: Tomcat started on port(s): 8816 (http) with context path ''
+2021-07-17 11:40:50.193 [tartedMain] d.s.w.p.DocumentationPluginsBootstrapper start[160]: Context refreshed
+2021-07-17 11:40:50.211 [tartedMain] d.s.w.p.DocumentationPluginsBootstrapper start[163]: Found 1 custom documentation plugin(s)
+2021-07-17 11:40:50.247 [tartedMain] s.d.s.w.s.ApiListingReferenceScanner     scan[41]: Scanning for api listing references
+2021-07-17 11:40:50.324 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":2,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:40:50.361 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":2,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:40:50.418 [tartedMain] .d.s.w.r.o.CachingOperationNameGenerator startingWith[40]: Generating unique operation named: loginUsingPOST_1
+2021-07-17 11:40:50.444 [tartedMain] c.wuhan.tracedemo.GoodTraceApplication   logStarted[61]: Started GoodTraceApplication in 9.149 seconds (JVM running for 19.877)
+2021-07-17 11:40:55.870 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":3,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:40:55.927 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":3,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:40:56.331 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":3,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:40:56.402 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":3,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:01.959 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":4,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:01.997 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":4,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:02.327 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":4,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:02.368 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":4,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:07.871 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":5,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:07.908 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":5,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:08.334 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":5,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:08.371 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":5,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:13.868 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":6,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:13.907 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":6,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:14.330 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":6,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:14.367 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":6,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:19.871 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":7,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:19.911 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":7,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:20.333 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":7,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:20.392 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":7,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:22.971 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":8,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:23.009 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":8,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:26.334 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":8,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:26.394 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":8,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:28.970 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":9,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:29.006 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":9,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:32.335 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":9,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:32.374 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":9,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:34.974 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":10,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:35.013 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":10,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:38.321 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":10,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:38.358 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":10,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:40.971 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":11,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:41.008 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":11,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:44.327 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":11,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:44.363 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":11,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:46.972 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":12,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:47.027 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":12,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:50.332 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":12,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:50.369 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":12,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:52.868 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":13,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:52.913 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":13,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:56.335 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":13,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:56.378 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":13,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:41:58.875 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":14,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:41:58.911 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":14,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:02.322 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":14,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:02.358 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":14,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:04.972 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":15,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:05.015 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":15,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:08.329 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":15,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:08.365 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":15,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:10.969 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":16,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:11.056 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":16,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:14.331 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":16,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:14.382 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":16,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:16.164 [816-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       log[173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-17 11:42:16.164 [816-exec-2] o.s.web.servlet.DispatcherServlet        initServletBean[525]: Initializing Servlet 'dispatcherServlet'
+2021-07-17 11:42:16.165 [816-exec-2] o.s.web.servlet.DispatcherServlet        initServletBean[547]: Completed initialization in 1 ms
+2021-07-17 11:42:16.218 [816-exec-2] c.w.t.c.ControllerExceptionHandleAdvice  handler[52]: catch exception:
+org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userid' for method parameter type String is not present
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValueInternal(RequestParamMethodArgumentResolver.java:218)
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:193)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:114)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:170)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:137)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-17 11:42:16.266 [816-exec-2] .m.m.a.ExceptionHandlerExceptionResolver logException[207]: Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'userid' for method parameter type String is not present]
+2021-07-17 11:42:16.971 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":17,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:17.035 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":17,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:20.327 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":17,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:20.363 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":17,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:22.857 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[40]: ========================================== Start ==========================================
+2021-07-17 11:42:22.860 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[42]: URL            : http://localhost:8816/getComment
+2021-07-17 11:42:22.860 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[44]: HTTP Method    : GET
+2021-07-17 11:42:22.863 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[46]: Class Method   : com.wuhan.tracedemo.controller.ContractController.getComment
+2021-07-17 11:42:22.863 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[48]: IP             : 0:0:0:0:0:0:0:1
+2021-07-17 11:42:22.863 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[60]: initSalixLog error:
+java.lang.NoSuchMethodException: com.wuhan.tracedemo.controller.ContractController.initSalixLog()
+	at java.lang.Class.getMethod(Class.java:1814)
+	at com.wuhan.tracedemo.common.aspect.AppLogAspect.doBefore(AppLogAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:617)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:44)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.wuhan.tracedemo.controller.ContractController$$EnhancerBySpringCGLIB$$30b7cbb3.getComment(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-17 11:42:22.864 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[76]: url=/getComment||method=GET||param=2
+2021-07-17 11:42:22.865 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":18,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:22.895 [816-exec-3] com.wuhan.tracedemo.contract.JRContract  info[101]: sendSyncTransaction, txHash:cd6e5bfa74d453416fbb4c7aea8972d2578015af16870efcb9f405cd6d7ce272
+2021-07-17 11:42:22.895 [816-exec-3] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":18,"msg_name":"transaction_CallContract","msg_type":9,"transaction":{"period":0,"data":"6dc78834000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000013200000000000000000000000000000000000000000000000000000000000000","signature":["ae830ab68e286c8b10741b50453e7a49996145a031ed5d9cec0d2b48bc15f46a69e689040bd43d390b4b0f9249feea5abccf9ce62342bdab9a4987801b1bcc8701"],"type":11,"nonce":5670868244391806897,"version":2,"extensions":[],"group_id":"0000000000000000000000000000000000000000","gas":0,"from":"46b86b57da8f26b5a1189db7cbac3d273df1a223ad449ef5e2dfba8b6fa71fdd","to":"dc4b6f5ea6f1e5ff90819d589db6a036540a94625398ea988478979b1ff6008b","value":0,"hash":"cd6e5bfa74d453416fbb4c7aea8972d2578015af16870efcb9f405cd6d7ce272","timestamp":1626493343016}}
+2021-07-17 11:42:22.901 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":18,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:22.933 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":18,"msg_name":"transaction_CallContract_Resp","msg_type":21,"return_code":0,"hash":"cd6e5bfa74d453416fbb4c7aea8972d2578015af16870efcb9f405cd6d7ce272"}
+2021-07-17 11:42:22.934 [816-exec-3] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":19,"msg_name":"query_TransactionReceipt","msg_type":56,"hash":"cd6e5bfa74d453416fbb4c7aea8972d2578015af16870efcb9f405cd6d7ce272"}
+2021-07-17 11:42:22.969 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":19,"msg_name":"query_TransactionReceipt_Resp","msg_type":63,"block_number":0,"receipt":{"result":0,"output":"","gas_used":0,"logs":[]},"transaction_index":0,"return_code":414}
+2021-07-17 11:42:23.474 [816-exec-3] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":20,"msg_name":"query_TransactionReceipt","msg_type":56,"hash":"cd6e5bfa74d453416fbb4c7aea8972d2578015af16870efcb9f405cd6d7ce272"}
+2021-07-17 11:42:23.513 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":20,"msg_name":"query_TransactionReceipt_Resp","msg_type":63,"block_number":37749607,"receipt":{"result":0,"output":"000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000021e5a5bde590833be99d9ee5b8b8e5a5bde590833be789b9e588abe5a5bde590833b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000023eaa3200000000000000000000000000000000000000000000000000000000023eaa3300000000000000000000000000000000000000000000000000000000023f0e7400000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000017aad14471b0000000000000000000000000000000000000000000000000000017aad1449100000000000000000000000000000000000000000000000000000017aae7821f4","gas_used":58647,"logs":[{"topics":["call_contract"],"from":"46b86b57da8f26b5a1189db7cbac3d273df1a223ad449ef5e2dfba8b6fa71fdd","log_data":"","to":"dc4b6f5ea6f1e5ff90819d589db6a036540a94625398ea988478979b1ff6008b"}]},"transaction_index":0,"return_code":0}
+2021-07-17 11:42:23.521 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doAfterReturning[105]: ret=ResponseMsg{msgId='null', data=[Lcom.wuhan.tracedemo.entity.SimpleComment;@276f8432, rtCode='0', message='成功'}||cost=664
+2021-07-17 11:42:25.972 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":19,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:26.011 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":19,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:29.334 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":21,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:29.370 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":21,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:31.969 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":20,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:32.007 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":20,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:35.334 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":22,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:35.372 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":22,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:37.873 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":21,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:37.910 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":21,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:41.326 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":23,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:41.363 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":23,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:43.869 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":22,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:43.905 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":22,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:46.973 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":23,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:47.010 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":23,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:47.334 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":24,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:47.374 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":24,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:52.866 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":24,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:52.903 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":24,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:53.336 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":25,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:53.375 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":25,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:58.972 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":25,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:59.009 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":25,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:42:59.334 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":26,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:42:59.370 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":26,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:04.870 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":26,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:04.907 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":26,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:05.333 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":27,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:05.382 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":27,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:10.874 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":27,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:10.911 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":27,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:11.336 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":28,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:11.372 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":28,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:16.874 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":28,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:16.912 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":28,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:17.333 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":29,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:17.374 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":29,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:27.158 [main      ] com.wuhan.tracedemo.contract.JRContract  info[101]: set transport : com.alipay.mychain.sdk.network.netty.TcpClientTransport
+2021-07-17 11:43:27.161 [main      ] com.wuhan.tracedemo.contract.JRContract  info[101]: channel start ...
+2021-07-17 11:43:27.170 [main      ] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:43:30.174 [main      ] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:43:31.581 [main      ] com.wuhan.tracedemo.contract.JRContract  info[106]: channel connect 706655fffe27017f-0000553c-00000001-26e52a75b99fe0bb-d71426e7, 
+2021-07-17 11:43:31.581 [main      ] com.wuhan.tracedemo.contract.JRContract  info[106]: connect to 47.103.163.48:18130, async, success
+2021-07-17 11:43:31.581 [main      ] com.wuhan.tracedemo.contract.JRContract  info[106]: handshake, start timeout:3000
+2021-07-17 11:43:31.982 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[101]: set transport : com.alipay.mychain.sdk.network.netty.TcpClientTransport
+2021-07-17 11:43:31.982 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[101]: channel start ...
+2021-07-17 11:43:31.983 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:43:32.020 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[106]: channel connect 706655fffe27017f-0000553c-00000002-249d7c4a399fe28f-77e4e974, 
+2021-07-17 11:43:32.020 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[106]: connect to 47.103.163.48:18130, async, success
+2021-07-17 11:43:32.021 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[106]: handshake, start timeout:3000
+2021-07-17 11:43:32.586 [tartedMain] c.wuhan.tracedemo.GoodTraceApplication   logStarting[55]: Starting GoodTraceApplication using Java 1.8.0_292 on LAPTOP-7P4FJ2M9 with PID 21820 (C:\Users\ASUS\Desktop\CS\notes\blockchain\demo_projects\tracedemo07171055\tracedemo\target\classes started by ASUS in C:\Users\ASUS\Desktop\CS\notes\blockchain\demo_projects\tracedemo07171055\tracedemo)
+2021-07-17 11:43:32.586 [tartedMain] c.wuhan.tracedemo.GoodTraceApplication   logStartupProfileInfo[659]: No active profile set, falling back to default profiles: default
+2021-07-17 11:43:32.641 [tartedMain] .e.DevToolsPropertyDefaultsPostProcessor logTo[255]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-17 11:43:32.641 [tartedMain] .e.DevToolsPropertyDefaultsPostProcessor logTo[255]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-17 11:43:33.878 [tartedMain] org.apache.ibatis.logging.LogFactory     setImplementation[105]: Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-17 11:43:34.055 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'shiroConfig' of type [com.wuhan.tracedemo.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$29df074] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:34.233 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:34.238 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$91f3239d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:34.239 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$6dd6ac75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:34.241 [tartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure dataSource[56]: Init DruidDataSource
+2021-07-17 11:43:34.296 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:34.335 [tartedMain] com.alibaba.druid.pool.DruidDataSource   init[1003]: {dataSource-1} inited
+2021-07-17 11:43:34.336 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:34.839 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":1,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:34.892 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":1,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:35.196 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":1,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:35.232 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":1,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:39.520 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:39.524 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:39.531 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'merchantMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:39.533 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'merchantMapper' of type [com.sun.proxy.$Proxy77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:39.533 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'merchantServiceImpl' of type [com.wuhan.tracedemo.service.impl.MerchantServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:39.534 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'jwtShiroRealm' of type [com.wuhan.tracedemo.shiro.JWTShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:39.537 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:39.558 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:43:40.184 [tartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  initialize[108]: Tomcat initialized with port(s): 8816 (http)
+2021-07-17 11:43:40.194 [tartedMain] o.a.coyote.http11.Http11NioProtocol      log[173]: Initializing ProtocolHandler ["http-nio-8816"]
+2021-07-17 11:43:40.195 [tartedMain] o.apache.catalina.core.StandardService   log[173]: Starting service [Tomcat]
+2021-07-17 11:43:40.195 [tartedMain] org.apache.catalina.core.StandardEngine  log[173]: Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-17 11:43:40.315 [tartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       log[173]: Initializing Spring embedded WebApplicationContext
+2021-07-17 11:43:40.315 [tartedMain] w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext[290]: Root WebApplicationContext: initialization completed in 7673 ms
+2021-07-17 11:43:40.733 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":2,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:40.782 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":2,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:41.160 [tartedMain] pertySourcedRequestMappingHandlerMapping initHandlerMethods[69]: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-17 11:43:41.193 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":2,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:41.231 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":2,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:41.448 [tartedMain] o.s.b.d.a.OptionalLiveReloadServer       startServer[58]: LiveReload server is running on port 35729
+2021-07-17 11:43:41.907 [tartedMain] o.a.coyote.http11.Http11NioProtocol      log[173]: Starting ProtocolHandler ["http-nio-8816"]
+2021-07-17 11:43:41.916 [tartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  start[220]: Tomcat started on port(s): 8816 (http) with context path ''
+2021-07-17 11:43:41.918 [tartedMain] d.s.w.p.DocumentationPluginsBootstrapper start[160]: Context refreshed
+2021-07-17 11:43:41.937 [tartedMain] d.s.w.p.DocumentationPluginsBootstrapper start[163]: Found 1 custom documentation plugin(s)
+2021-07-17 11:43:41.969 [tartedMain] s.d.s.w.s.ApiListingReferenceScanner     scan[41]: Scanning for api listing references
+2021-07-17 11:43:42.126 [tartedMain] .d.s.w.r.o.CachingOperationNameGenerator startingWith[40]: Generating unique operation named: loginUsingPOST_1
+2021-07-17 11:43:42.148 [tartedMain] c.wuhan.tracedemo.GoodTraceApplication   logStarted[61]: Started GoodTraceApplication in 9.999 seconds (JVM running for 19.257)
+2021-07-17 11:43:46.745 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":3,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:46.785 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":3,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:47.183 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":3,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:47.219 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":3,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:52.739 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":4,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:52.777 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":4,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:53.185 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":4,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:53.220 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":4,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:58.742 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":5,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:58.789 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":5,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:43:59.196 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":5,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:43:59.233 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":5,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:04.739 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":6,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:04.780 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":6,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:05.188 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":6,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:05.224 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":6,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:09.476 [816-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       log[173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-17 11:44:09.476 [816-exec-1] o.s.web.servlet.DispatcherServlet        initServletBean[525]: Initializing Servlet 'dispatcherServlet'
+2021-07-17 11:44:09.477 [816-exec-1] o.s.web.servlet.DispatcherServlet        initServletBean[547]: Completed initialization in 1 ms
+2021-07-17 11:44:09.526 [816-exec-1] c.w.t.common.aspect.AppLogAspect         doBefore[40]: ========================================== Start ==========================================
+2021-07-17 11:44:09.531 [816-exec-1] c.w.t.common.aspect.AppLogAspect         doBefore[42]: URL            : http://localhost:8816/getComment
+2021-07-17 11:44:09.531 [816-exec-1] c.w.t.common.aspect.AppLogAspect         doBefore[44]: HTTP Method    : GET
+2021-07-17 11:44:09.533 [816-exec-1] c.w.t.common.aspect.AppLogAspect         doBefore[46]: Class Method   : com.wuhan.tracedemo.controller.ContractController.getComment
+2021-07-17 11:44:09.534 [816-exec-1] c.w.t.common.aspect.AppLogAspect         doBefore[48]: IP             : 0:0:0:0:0:0:0:1
+2021-07-17 11:44:09.537 [816-exec-1] c.w.t.common.aspect.AppLogAspect         doBefore[60]: initSalixLog error:
+java.lang.NoSuchMethodException: com.wuhan.tracedemo.controller.ContractController.initSalixLog()
+	at java.lang.Class.getMethod(Class.java:1814)
+	at com.wuhan.tracedemo.common.aspect.AppLogAspect.doBefore(AppLogAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:617)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:44)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.wuhan.tracedemo.controller.ContractController$$EnhancerBySpringCGLIB$$273d7879.getComment(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-17 11:44:09.537 [816-exec-1] c.w.t.common.aspect.AppLogAspect         doBefore[76]: url=/getComment||method=GET||param=谢先生餐厅
+2021-07-17 11:44:09.542 [816-exec-1] c.w.t.common.aspect.AppLogAspect         doAfterThrowing[90]: ret=[Ljava.lang.StackTraceElement;@3c5c61f9||cost=17
+2021-07-17 11:44:09.593 [816-exec-1] .m.m.a.ExceptionHandlerExceptionResolver logException[207]: Resolved [java.lang.NullPointerException]
+2021-07-17 11:44:10.745 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":7,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:10.784 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":7,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:11.194 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":7,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:11.234 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":7,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:16.736 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":8,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:16.774 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":8,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:17.194 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":8,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:17.232 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":8,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:22.738 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":9,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:22.777 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":9,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:23.184 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":9,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:23.220 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":9,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:28.735 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":10,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:28.772 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":10,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:29.189 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":10,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:29.225 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":10,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:34.744 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":11,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:34.782 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":11,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:35.183 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":11,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:35.219 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":11,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:40.738 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":12,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:40.780 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":12,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:41.196 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":12,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:41.232 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":12,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:46.736 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":13,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:46.775 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":13,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:47.188 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":13,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:47.229 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":13,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:52.738 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":14,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:52.778 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":14,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:53.196 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":14,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:53.244 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":14,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:58.738 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":15,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:58.784 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":15,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:44:59.193 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":15,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:44:59.229 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":15,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:04.734 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":16,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:04.775 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":16,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:05.187 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":16,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:05.234 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":16,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:10.739 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":17,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:10.779 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":17,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:11.194 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":17,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:11.232 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":17,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:16.737 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":18,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:16.774 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":18,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:17.192 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":18,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:17.232 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":18,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:25.511 [main      ] com.wuhan.tracedemo.contract.JRContract  info[101]: set transport : com.alipay.mychain.sdk.network.netty.TcpClientTransport
+2021-07-17 11:45:25.513 [main      ] com.wuhan.tracedemo.contract.JRContract  info[101]: channel start ...
+2021-07-17 11:45:25.523 [main      ] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:45:33.743 [main      ] com.wuhan.tracedemo.contract.JRContract  info[101]: set transport : com.alipay.mychain.sdk.network.netty.TcpClientTransport
+2021-07-17 11:45:33.747 [main      ] com.wuhan.tracedemo.contract.JRContract  info[101]: channel start ...
+2021-07-17 11:45:33.757 [main      ] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:45:36.768 [main      ] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:45:37.908 [main      ] com.wuhan.tracedemo.contract.JRContract  info[106]: channel connect 706655fffe27017f-000038ec-00000001-191a4ca0c581ce46-3e5e8eca, 
+2021-07-17 11:45:37.908 [main      ] com.wuhan.tracedemo.contract.JRContract  info[106]: connect to 47.103.163.48:18130, async, success
+2021-07-17 11:45:37.909 [main      ] com.wuhan.tracedemo.contract.JRContract  info[106]: handshake, start timeout:3000
+2021-07-17 11:45:38.341 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[101]: set transport : com.alipay.mychain.sdk.network.netty.TcpClientTransport
+2021-07-17 11:45:38.341 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[101]: channel start ...
+2021-07-17 11:45:38.341 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:45:38.379 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[106]: channel connect 706655fffe27017f-000038ec-00000002-37d0b364c581d026-0f2b8b94, 
+2021-07-17 11:45:38.379 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[106]: connect to 47.103.163.48:18130, async, success
+2021-07-17 11:45:38.379 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[106]: handshake, start timeout:3000
+2021-07-17 11:45:39.028 [tartedMain] c.wuhan.tracedemo.GoodTraceApplication   logStarting[55]: Starting GoodTraceApplication using Java 1.8.0_292 on LAPTOP-7P4FJ2M9 with PID 14572 (C:\Users\ASUS\Desktop\CS\notes\blockchain\demo_projects\tracedemo07171055\tracedemo\target\classes started by ASUS in C:\Users\ASUS\Desktop\CS\notes\blockchain\demo_projects\tracedemo07171055\tracedemo)
+2021-07-17 11:45:39.028 [tartedMain] c.wuhan.tracedemo.GoodTraceApplication   logStartupProfileInfo[659]: No active profile set, falling back to default profiles: default
+2021-07-17 11:45:39.091 [tartedMain] .e.DevToolsPropertyDefaultsPostProcessor logTo[255]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-17 11:45:39.091 [tartedMain] .e.DevToolsPropertyDefaultsPostProcessor logTo[255]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-17 11:45:40.436 [tartedMain] org.apache.ibatis.logging.LogFactory     setImplementation[105]: Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-17 11:45:40.589 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'shiroConfig' of type [com.wuhan.tracedemo.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$635dded7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:40.806 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:40.811 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$f2b31200] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:40.812 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$ce969ad8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:40.815 [tartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure dataSource[56]: Init DruidDataSource
+2021-07-17 11:45:40.882 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:40.926 [tartedMain] com.alibaba.druid.pool.DruidDataSource   init[1003]: {dataSource-1} inited
+2021-07-17 11:45:40.927 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:41.341 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":1,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:41.382 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":1,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:41.542 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":1,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:41.578 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":1,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:45.589 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:45.594 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:45.600 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'merchantMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:45.602 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'merchantMapper' of type [com.sun.proxy.$Proxy77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:45.603 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'merchantServiceImpl' of type [com.wuhan.tracedemo.service.impl.MerchantServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:45.603 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'jwtShiroRealm' of type [com.wuhan.tracedemo.shiro.JWTShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:45.607 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:45.631 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:45:46.405 [tartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  initialize[108]: Tomcat initialized with port(s): 8816 (http)
+2021-07-17 11:45:46.419 [tartedMain] o.a.coyote.http11.Http11NioProtocol      log[173]: Initializing ProtocolHandler ["http-nio-8816"]
+2021-07-17 11:45:46.420 [tartedMain] o.apache.catalina.core.StandardService   log[173]: Starting service [Tomcat]
+2021-07-17 11:45:46.420 [tartedMain] org.apache.catalina.core.StandardEngine  log[173]: Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-17 11:45:46.599 [tartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       log[173]: Initializing Spring embedded WebApplicationContext
+2021-07-17 11:45:46.600 [tartedMain] w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext[290]: Root WebApplicationContext: initialization completed in 7508 ms
+2021-07-17 11:45:47.128 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":2,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:47.196 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":2,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:47.555 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":2,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:47.596 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":2,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:47.690 [tartedMain] pertySourcedRequestMappingHandlerMapping initHandlerMethods[69]: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-17 11:45:48.054 [tartedMain] o.s.b.d.a.OptionalLiveReloadServer       startServer[58]: LiveReload server is running on port 35729
+2021-07-17 11:45:48.598 [tartedMain] o.a.coyote.http11.Http11NioProtocol      log[173]: Starting ProtocolHandler ["http-nio-8816"]
+2021-07-17 11:45:48.609 [tartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  start[220]: Tomcat started on port(s): 8816 (http) with context path ''
+2021-07-17 11:45:48.611 [tartedMain] d.s.w.p.DocumentationPluginsBootstrapper start[160]: Context refreshed
+2021-07-17 11:45:48.634 [tartedMain] d.s.w.p.DocumentationPluginsBootstrapper start[163]: Found 1 custom documentation plugin(s)
+2021-07-17 11:45:48.677 [tartedMain] s.d.s.w.s.ApiListingReferenceScanner     scan[41]: Scanning for api listing references
+2021-07-17 11:45:48.861 [tartedMain] .d.s.w.r.o.CachingOperationNameGenerator startingWith[40]: Generating unique operation named: loginUsingPOST_1
+2021-07-17 11:45:48.888 [tartedMain] c.wuhan.tracedemo.GoodTraceApplication   logStarted[61]: Started GoodTraceApplication in 10.383 seconds (JVM running for 19.774)
+2021-07-17 11:45:53.130 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":3,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:53.169 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":3,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:53.545 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":3,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:53.581 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":3,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:59.131 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":4,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:59.169 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":4,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:45:59.553 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":4,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:45:59.591 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":4,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:05.132 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":5,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:05.170 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":5,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:05.544 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":5,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:05.581 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":5,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:10.150 [816-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       log[173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-17 11:46:10.150 [816-exec-2] o.s.web.servlet.DispatcherServlet        initServletBean[525]: Initializing Servlet 'dispatcherServlet'
+2021-07-17 11:46:10.151 [816-exec-2] o.s.web.servlet.DispatcherServlet        initServletBean[547]: Completed initialization in 1 ms
+2021-07-17 11:46:10.345 [816-exec-2] c.w.t.common.aspect.AppLogAspect         doBefore[40]: ========================================== Start ==========================================
+2021-07-17 11:46:10.350 [816-exec-2] c.w.t.common.aspect.AppLogAspect         doBefore[42]: URL            : http://localhost:8816/getComment
+2021-07-17 11:46:10.350 [816-exec-2] c.w.t.common.aspect.AppLogAspect         doBefore[44]: HTTP Method    : GET
+2021-07-17 11:46:10.352 [816-exec-2] c.w.t.common.aspect.AppLogAspect         doBefore[46]: Class Method   : com.wuhan.tracedemo.controller.ContractController.getComment
+2021-07-17 11:46:10.353 [816-exec-2] c.w.t.common.aspect.AppLogAspect         doBefore[48]: IP             : 0:0:0:0:0:0:0:1
+2021-07-17 11:46:10.356 [816-exec-2] c.w.t.common.aspect.AppLogAspect         doBefore[60]: initSalixLog error:
+java.lang.NoSuchMethodException: com.wuhan.tracedemo.controller.ContractController.initSalixLog()
+	at java.lang.Class.getMethod(Class.java:1814)
+	at com.wuhan.tracedemo.common.aspect.AppLogAspect.doBefore(AppLogAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:617)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:44)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.wuhan.tracedemo.controller.ContractController$$EnhancerBySpringCGLIB$$616b686f.getComment(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-17 11:46:10.357 [816-exec-2] c.w.t.common.aspect.AppLogAspect         doBefore[76]: url=/getComment||method=GET||param=谢先生餐厅
+2021-07-17 11:46:40.980 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":6,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.980 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":6,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.981 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":7,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.981 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":7,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.981 [816-exec-2] c.w.t.common.aspect.AppLogAspect         doAfterThrowing[90]: ret=[Ljava.lang.StackTraceElement;@558fbdb6||cost=30638
+2021-07-17 11:46:40.982 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":8,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.982 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":8,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.982 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":9,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.984 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":9,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.984 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":10,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.985 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":10,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.985 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":11,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.986 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":11,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.986 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":12,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.987 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":13,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.987 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":12,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.988 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":13,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.988 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":14,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.989 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":14,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.989 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":15,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:40.990 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":15,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:41.018 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":6,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.021 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":6,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.021 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":7,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.021 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":8,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.021 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":9,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.022 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":7,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.022 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":8,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.022 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":10,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.023 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":9,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.024 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":10,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.050 [816-exec-2] .m.m.a.ExceptionHandlerExceptionResolver logException[207]: Resolved [java.lang.NullPointerException]
+2021-07-17 11:46:41.053 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":13,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.053 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":12,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.053 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":14,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.053 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":11,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.054 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":15,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.059 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":11,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.059 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":12,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.059 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":14,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.059 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":13,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:41.060 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":15,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:43.097 [utdownHook] com.alibaba.druid.pool.DruidDataSource   close[1948]: {dataSource-1} closing ...
+2021-07-17 11:46:43.098 [utdownHook] com.alibaba.druid.pool.DruidDataSource   close[2020]: {dataSource-1} closed
+2021-07-17 11:46:51.133 [main      ] com.wuhan.tracedemo.contract.JRContract  info[101]: set transport : com.alipay.mychain.sdk.network.netty.TcpClientTransport
+2021-07-17 11:46:51.136 [main      ] com.wuhan.tracedemo.contract.JRContract  info[101]: channel start ...
+2021-07-17 11:46:51.146 [main      ] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:46:54.156 [main      ] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:46:55.409 [main      ] com.wuhan.tracedemo.contract.JRContract  info[106]: channel connect 706655fffe27017f-00005e54-00000001-302fd21cb202fcfe-9bcd411a, 
+2021-07-17 11:46:55.409 [main      ] com.wuhan.tracedemo.contract.JRContract  info[106]: connect to 47.103.163.48:18130, async, success
+2021-07-17 11:46:55.410 [main      ] com.wuhan.tracedemo.contract.JRContract  info[106]: handshake, start timeout:3000
+2021-07-17 11:46:55.803 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[101]: set transport : com.alipay.mychain.sdk.network.netty.TcpClientTransport
+2021-07-17 11:46:55.804 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[101]: channel start ...
+2021-07-17 11:46:55.804 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[111]: connect, address:47.103.163.48:18130, timeout:3000
+2021-07-17 11:46:55.842 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[106]: channel connect 706655fffe27017f-00005e54-00000002-20e34ffbb202febc-cd786825, 
+2021-07-17 11:46:55.843 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[106]: connect to 47.103.163.48:18130, async, success
+2021-07-17 11:46:55.843 [tartedMain] com.wuhan.tracedemo.contract.JRContract  info[106]: handshake, start timeout:3000
+2021-07-17 11:46:56.423 [tartedMain] c.wuhan.tracedemo.GoodTraceApplication   logStarting[55]: Starting GoodTraceApplication using Java 1.8.0_292 on LAPTOP-7P4FJ2M9 with PID 24148 (C:\Users\ASUS\Desktop\CS\notes\blockchain\demo_projects\tracedemo07171055\tracedemo\target\classes started by ASUS in C:\Users\ASUS\Desktop\CS\notes\blockchain\demo_projects\tracedemo07171055\tracedemo)
+2021-07-17 11:46:56.423 [tartedMain] c.wuhan.tracedemo.GoodTraceApplication   logStartupProfileInfo[659]: No active profile set, falling back to default profiles: default
+2021-07-17 11:46:56.477 [tartedMain] .e.DevToolsPropertyDefaultsPostProcessor logTo[255]: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-17 11:46:56.477 [tartedMain] .e.DevToolsPropertyDefaultsPostProcessor logTo[255]: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-17 11:46:57.640 [tartedMain] org.apache.ibatis.logging.LogFactory     setImplementation[105]: Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2021-07-17 11:46:57.819 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'shiroConfig' of type [com.wuhan.tracedemo.shiro.ShiroConfig$$EnhancerBySpringCGLIB$$b7f62a20] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:46:57.997 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'mybatis-plus-com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:46:58.002 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration' of type [com.baomidou.mybatisplus.autoconfigure.MybatisPlusAutoConfiguration$$EnhancerBySpringCGLIB$$474b5d49] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:46:58.003 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceAutoConfigure$$EnhancerBySpringCGLIB$$232ee621] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:46:58.005 [tartedMain] c.a.d.s.b.a.DruidDataSourceAutoConfigure dataSource[56]: Init DruidDataSource
+2021-07-17 11:46:58.061 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'spring.datasource-org.springframework.boot.autoconfigure.jdbc.DataSourceProperties' of type [org.springframework.boot.autoconfigure.jdbc.DataSourceProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:46:58.099 [tartedMain] com.alibaba.druid.pool.DruidDataSource   init[1003]: {dataSource-1} inited
+2021-07-17 11:46:58.099 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'dataSource' of type [com.alibaba.druid.spring.boot.autoconfigure.DruidDataSourceWrapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:46:58.703 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":1,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:58.782 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":1,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:46:59.010 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":1,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:46:59.047 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":1,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:02.067 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'sqlSessionFactory' of type [org.apache.ibatis.session.defaults.DefaultSqlSessionFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:47:02.071 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'sqlSessionTemplate' of type [org.mybatis.spring.SqlSessionTemplate] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:47:02.077 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'merchantMapper' of type [org.mybatis.spring.mapper.MapperFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:47:02.079 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'merchantMapper' of type [com.sun.proxy.$Proxy77] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:47:02.080 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'merchantServiceImpl' of type [com.wuhan.tracedemo.service.impl.MerchantServiceImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:47:02.080 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'jwtShiroRealm' of type [com.wuhan.tracedemo.shiro.JWTShiroRealm] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:47:02.084 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:47:02.106 [tartedMain] trationDelegate$BeanPostProcessorChecker postProcessAfterInitialization[376]: Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-07-17 11:47:02.819 [tartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  initialize[108]: Tomcat initialized with port(s): 8816 (http)
+2021-07-17 11:47:02.835 [tartedMain] o.a.coyote.http11.Http11NioProtocol      log[173]: Initializing ProtocolHandler ["http-nio-8816"]
+2021-07-17 11:47:02.836 [tartedMain] o.apache.catalina.core.StandardService   log[173]: Starting service [Tomcat]
+2021-07-17 11:47:02.836 [tartedMain] org.apache.catalina.core.StandardEngine  log[173]: Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-17 11:47:02.993 [tartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       log[173]: Initializing Spring embedded WebApplicationContext
+2021-07-17 11:47:02.994 [tartedMain] w.s.c.ServletWebServerApplicationContext prepareWebApplicationContext[290]: Root WebApplicationContext: initialization completed in 6516 ms
+2021-07-17 11:47:03.972 [tartedMain] pertySourcedRequestMappingHandlerMapping initHandlerMethods[69]: Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-07-17 11:47:04.295 [tartedMain] o.s.b.d.a.OptionalLiveReloadServer       startServer[58]: LiveReload server is running on port 35729
+2021-07-17 11:47:04.599 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":2,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:04.641 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":2,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:04.780 [tartedMain] o.a.coyote.http11.Http11NioProtocol      log[173]: Starting ProtocolHandler ["http-nio-8816"]
+2021-07-17 11:47:04.790 [tartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  start[220]: Tomcat started on port(s): 8816 (http) with context path ''
+2021-07-17 11:47:04.791 [tartedMain] d.s.w.p.DocumentationPluginsBootstrapper start[160]: Context refreshed
+2021-07-17 11:47:04.810 [tartedMain] d.s.w.p.DocumentationPluginsBootstrapper start[163]: Found 1 custom documentation plugin(s)
+2021-07-17 11:47:04.843 [tartedMain] s.d.s.w.s.ApiListingReferenceScanner     scan[41]: Scanning for api listing references
+2021-07-17 11:47:04.997 [tartedMain] .d.s.w.r.o.CachingOperationNameGenerator startingWith[40]: Generating unique operation named: loginUsingPOST_1
+2021-07-17 11:47:05.014 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":2,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:05.020 [tartedMain] c.wuhan.tracedemo.GoodTraceApplication   logStarted[61]: Started GoodTraceApplication in 9.047 seconds (JVM running for 18.195)
+2021-07-17 11:47:05.049 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":2,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:10.595 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":3,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:10.639 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":3,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:11.018 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":3,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:11.056 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":3,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:16.598 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":4,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:16.645 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":4,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:17.017 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":4,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:17.053 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":4,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:22.593 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":5,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:22.634 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":5,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:23.005 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":5,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:23.042 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":5,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:28.596 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":6,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:28.638 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":6,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:29.016 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":6,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:29.053 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":6,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:34.587 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":7,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:34.629 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":7,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:35.012 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":7,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:35.048 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":7,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:40.596 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":8,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:40.642 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":8,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:41.004 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":8,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:41.042 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":8,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:46.594 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":9,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:46.658 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":9,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:47.009 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":9,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:47.049 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":9,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:52.595 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":10,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:52.636 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":10,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:53.005 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":10,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:53.046 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":10,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:53.933 [816-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       log[173]: Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-17 11:47:53.933 [816-exec-3] o.s.web.servlet.DispatcherServlet        initServletBean[525]: Initializing Servlet 'dispatcherServlet'
+2021-07-17 11:47:53.934 [816-exec-3] o.s.web.servlet.DispatcherServlet        initServletBean[547]: Completed initialization in 1 ms
+2021-07-17 11:47:53.989 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[40]: ========================================== Start ==========================================
+2021-07-17 11:47:53.992 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[42]: URL            : http://localhost:8816/getComment
+2021-07-17 11:47:53.992 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[44]: HTTP Method    : GET
+2021-07-17 11:47:53.994 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[46]: Class Method   : com.wuhan.tracedemo.controller.ContractController.getComment
+2021-07-17 11:47:53.995 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[48]: IP             : 0:0:0:0:0:0:0:1
+2021-07-17 11:47:53.997 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[60]: initSalixLog error:
+java.lang.NoSuchMethodException: com.wuhan.tracedemo.controller.ContractController.initSalixLog()
+	at java.lang.Class.getMethod(Class.java:1814)
+	at com.wuhan.tracedemo.common.aspect.AppLogAspect.doBefore(AppLogAspect.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:634)
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:617)
+	at org.springframework.aop.aspectj.AspectJMethodBeforeAdvice.before(AspectJMethodBeforeAdvice.java:44)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:57)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at com.wuhan.tracedemo.controller.ContractController$$EnhancerBySpringCGLIB$$a779d994.getComment(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:387)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-07-17 11:47:53.998 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doBefore[76]: url=/getComment||method=GET||param=谢先生餐厅
+2021-07-17 11:47:54.409 [816-exec-3] com.wuhan.tracedemo.contract.JRContract  info[101]: sendSyncTransaction, txHash:cfb9146fecc118c807331b32db318398646c1f8fc5142a0e8e97cb13e0d2e803
+2021-07-17 11:47:54.410 [816-exec-3] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":11,"msg_name":"transaction_CallContract","msg_type":9,"transaction":{"period":0,"data":"6dc78834000000000000000000000000000000000000000000000000000000000000002000000000000000000000000000000000000000000000000000000000000000013200000000000000000000000000000000000000000000000000000000000000","signature":["6a244ca925b938ae32f2c59add8d71ec45bd4ad07307194f7fc2065ddcb2c47a143c621eba568b469fd2c07da73800478baab58f71266e336ab63eaaac42c9c001"],"type":11,"nonce":2810163882676219692,"version":2,"extensions":[],"group_id":"0000000000000000000000000000000000000000","gas":0,"from":"46b86b57da8f26b5a1189db7cbac3d273df1a223ad449ef5e2dfba8b6fa71fdd","to":"dc4b6f5ea6f1e5ff90819d589db6a036540a94625398ea988478979b1ff6008b","value":0,"hash":"cfb9146fecc118c807331b32db318398646c1f8fc5142a0e8e97cb13e0d2e803","timestamp":1626493674530}}
+2021-07-17 11:47:54.447 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":11,"msg_name":"transaction_CallContract_Resp","msg_type":21,"return_code":0,"hash":"cfb9146fecc118c807331b32db318398646c1f8fc5142a0e8e97cb13e0d2e803"}
+2021-07-17 11:47:54.447 [816-exec-3] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":12,"msg_name":"query_TransactionReceipt","msg_type":56,"hash":"cfb9146fecc118c807331b32db318398646c1f8fc5142a0e8e97cb13e0d2e803"}
+2021-07-17 11:47:54.741 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":12,"msg_name":"query_TransactionReceipt_Resp","msg_type":63,"block_number":37749894,"receipt":{"result":0,"output":"000000000000000000000000000000000000000000000000000000000000006000000000000000000000000000000000000000000000000000000000000000c000000000000000000000000000000000000000000000000000000000000001400000000000000000000000000000000000000000000000000000000000000021e5a5bde590833be99d9ee5b8b8e5a5bde590833be789b9e588abe5a5bde590833b00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000300000000000000000000000000000000000000000000000000000000023eaa3200000000000000000000000000000000000000000000000000000000023eaa3300000000000000000000000000000000000000000000000000000000023f0e7400000000000000000000000000000000000000000000000000000000000000030000000000000000000000000000000000000000000000000000017aad14471b0000000000000000000000000000000000000000000000000000017aad1449100000000000000000000000000000000000000000000000000000017aae7821f4","gas_used":58647,"logs":[{"topics":["call_contract"],"from":"46b86b57da8f26b5a1189db7cbac3d273df1a223ad449ef5e2dfba8b6fa71fdd","log_data":"","to":"dc4b6f5ea6f1e5ff90819d589db6a036540a94625398ea988478979b1ff6008b"}]},"transaction_index":1,"return_code":0}
+2021-07-17 11:47:54.751 [816-exec-3] c.w.t.common.aspect.AppLogAspect         doAfterReturning[105]: ret=ResponseMsg{msgId='null', data=[Lcom.wuhan.tracedemo.entity.SimpleComment;@1b05bcac, rtCode='0', message='成功'}||cost=764
+2021-07-17 11:47:58.598 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":11,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:59.006 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":13,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:47:59.483 [r-thread-3] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":11,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:47:59.588 [r-thread-1] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":13,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:48:04.601 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":12,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:48:04.641 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":12,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
+2021-07-17 11:48:05.011 [r-thread-0] com.wuhan.tracedemo.contract.JRContract  info[106]: sendRequest, message:{"sequence":14,"msg_name":"heartbeat","msg_type":998}
+2021-07-17 11:48:05.047 [r-thread-2] com.wuhan.tracedemo.contract.JRContract  info[106]: processMsg, message:{"sequence":14,"msg_name":"heartbeat_Resp","msg_type":999,"return_code":0}
