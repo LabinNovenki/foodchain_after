@@ -2,7 +2,9 @@ package com.wuhan.tracedemo.controller;
 
 import com.wuhan.tracedemo.common.ResponseMsg;
 import com.wuhan.tracedemo.entity.*;
+import com.wuhan.tracedemo.log.BackLog;
 import com.wuhan.tracedemo.service.CommentCodeService;
+import com.wuhan.tracedemo.service.LogInfoService;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -19,13 +21,19 @@ import java.util.Map;
 @Slf4j
 @RestController
 public class ContractController {
+    @Autowired
+    LogInfoService logInfoService;
+
+    private BackLog backLog = new BackLog();
+
+    @Autowired
     MerchantService merchantService;
     @Autowired
     CommentCodeService commentCodeService;
 
-
+    @ResponseBody
     @PostMapping("/commentCode/commitComment")
-    public int commitCommentCode(@RequestBody SimpleComment sim) {
+    public ResponseMsg commitCommentCode(@RequestBody SimpleComment sim) {
         int block = 0;
         CommentCode commentCode;
         commentCode = commentCodeService.getCommentCode(sim.getCommentid());
@@ -33,39 +41,50 @@ public class ContractController {
         if (commentCode.is_used() == false) {
 
             // 连接智能合约
-            block = JRContract.callContractMakeComment(sim.getComment(),"",commentCode.getUserid(),sim.getStar());
+            block = JRContract.callContractMakeComment(sim.getCommentid(), sim.getComment(),"",commentCode.getUserid(),sim.getStar());
 //            System.out.println(sim.comment);
 
             commentCodeService.updateCommentCode(sim.getCommentid());
-            return block;
+//            LogInfo logInfo = backLog.putLog("non-merchant",  "comment["+ commentCode.getCommentid() +"] was sent successfully",
+//                    "/commentCode/commitComment");
+//            logInfoService.saveLoginInfo(logInfo);
+
+            return ResponseMsg.successResponse(block);
         } else {
-            return block;
+//            LogInfo logInfo = backLog.putLog("non-merchant",  "comment["+ commentCode.getCommentid() +"] was sent, but link's been invalid",
+//                    "/commentCode/commitComment");
+//            logInfoService.saveLoginInfo(logInfo);
+            return ResponseMsg.errorResponse("the link is invalid.");
         }
     }
 
     @ResponseBody
     @GetMapping("/getComment")
-    public ResponseMsg getComment(@RequestParam(value="userid") String userid) {
+    public ResponseMsg getComment(@RequestParam(value="name") String name) {
         CommentInfo commentInfos[];
 
-        commentInfos = JRContract.callContractQueryComment(userid);
-        SimpleComment[] sim = new SimpleComment[commentInfos.length];
+        Merchant merchant = merchantService.getByName(name);
+
+        commentInfos = JRContract.callContractQueryComment(merchant.getUserid());
+//        SimpleComment[] sim = new SimpleComment[commentInfos.length];
 
         System.out.println("\n########################################\n");
         float score = 0;
 
         for (int i = 0; i < commentInfos.length; i++) {
-            System.out.println(commentInfos[i].comment);
-            System.out.println(commentInfos[i].time);
-            System.out.println(commentInfos[i].star);
-            sim[i] = new SimpleComment(commentInfos[i].comment, commentInfos[i].time, commentInfos[i].star);
+//            sim[i] = new SimpleComment(commentInfos[i].comment, commentInfos[i].time, commentInfos[i].star);
             score += commentInfos[i].star;
         }
 
         score /= commentInfos.length;
-        System.out.println(score);
-        ComplexComment complex = new ComplexComment(score, sim);
+        String scoreString = String.format("%.1f", score);
+        ComplexComment complex = new ComplexComment(scoreString, commentInfos);
+
+//        LogInfo logInfo = backLog.putLog("non-merchant",  merchant.getName()+ "was queried",
+//                "/getComment");
+//        logInfoService.saveLoginInfo(logInfo);
+
         return ResponseMsg.successResponse(complex);
-//        return ResponseMsg.successResponse(sim);
+
     }
 }

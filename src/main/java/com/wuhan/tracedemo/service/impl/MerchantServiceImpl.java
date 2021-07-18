@@ -3,7 +3,6 @@ package com.wuhan.tracedemo.service.impl;
 import com.wuhan.tracedemo.common.StatusCode;
 import com.wuhan.tracedemo.common.exception.BizException;
 import com.wuhan.tracedemo.entity.Merchant;
-import com.wuhan.tracedemo.entity.User;
 import com.wuhan.tracedemo.entity.UserLoginParam;
 import com.wuhan.tracedemo.mapper.MerchantMapper;
 import com.wuhan.tracedemo.service.MerchantService;

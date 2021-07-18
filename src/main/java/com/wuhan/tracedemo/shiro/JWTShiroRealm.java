@@ -2,7 +2,6 @@ package com.wuhan.tracedemo.shiro;
 
 
 import com.wuhan.tracedemo.entity.Merchant;
-import com.wuhan.tracedemo.entity.User;
 import com.wuhan.tracedemo.jwt.JwtToken;
 import com.wuhan.tracedemo.service.MerchantService;
 import org.apache.shiro.authc.*;

@@ -6,9 +6,9 @@ import lombok.ToString;
 @Data
 @ToString
 public class ComplexComment {
-    private float score;
-    private SimpleComment[] infos;
-    public  ComplexComment(float _score, SimpleComment[] _infos) {
+    private String score;
+    private CommentInfo[] infos;
+    public  ComplexComment(String _score, CommentInfo[] _infos) {
         score = _score;
         infos = _infos;
     }

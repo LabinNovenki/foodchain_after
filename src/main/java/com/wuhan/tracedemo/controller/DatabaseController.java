@@ -2,20 +2,19 @@ package com.wuhan.tracedemo.controller;
 
 import com.wuhan.tracedemo.common.ResponseMsg;
 import com.wuhan.tracedemo.entity.CommentCode;
+import com.wuhan.tracedemo.entity.LogInfo;
 import com.wuhan.tracedemo.service.CommentCodeService;
+import com.wuhan.tracedemo.service.LogInfoService;
 import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 import lombok.extern.slf4j.Slf4j;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import com.wuhan.tracedemo.log.BackLog;
 
-import com.wuhan.tracedemo.entity.Good;
-import com.wuhan.tracedemo.service.GoodService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
+
+
+
+
 import com.wuhan.tracedemo.entity.Merchant;
 import com.wuhan.tracedemo.service.MerchantService;
 
@@ -29,27 +28,9 @@ import java.util.Map;
 @RestController
 public class DatabaseController {
     @Autowired
-    GoodService goodService;
+    LogInfoService logInfoService;
 
-
-    @ResponseBody
-    @GetMapping("/good/{id}")
-    public Good getGoodById(@RequestParam("id") Long id){
-        return goodService.getById(id);
-    }
-
-    @ResponseBody
-    @GetMapping("/good/{name}")
-    public Good getGoodByName(@RequestParam("name") String name){
-        return goodService.getByName(name);
-    }
-
-
-    @PostMapping("/good/add")
-    public Long saveGood(@RequestBody Good good){
-        goodService.saveGood(good);
-        return good.getId();
-    }
+    private BackLog backLog = new BackLog();
 
     @Autowired
     MerchantService merchantService;
@@ -59,25 +40,40 @@ public class DatabaseController {
         log.info(merchant.toString());
         merchant.md5password();
         merchantService.saveMerchant(merchant);
+        LogInfo logInfo = backLog.putLog(merchant.getUserid(), merchant.getName() + "sign up.",
+                "/merchant/add");
+        logInfoService.saveLoginInfo(logInfo);
         return ResponseMsg.successResponse("successfully sigh up");
     }
 
     @ResponseBody
     @GetMapping("/merchantId")
     public Merchant getMerchantById(@RequestParam("id") String id){
+        LogInfo logInfo = backLog.putLog("non-merchant", "get merchant by id:[" + id + "]",
+                "/merchantId");
+        logInfoService.saveLoginInfo(logInfo);
         return merchantService.getById(id);
     }
 
     @ResponseBody
     @GetMapping("/merchantName")
     public Merchant getMerchantByName(@RequestParam("name") String name){
+        LogInfo logInfo = backLog.putLog("non-merchant", "get merchant by name:[" + name + "]",
+                "/merchantName");
+        logInfoService.saveLoginInfo(logInfo);
         return merchantService.getByName(name);
     }
+
 
     @Autowired
     CommentCodeService commentCodeService;
     @GetMapping("/commentCode/saveCommentCode")
     public ResponseMsg saveCommentCode(@RequestParam("user") String userid) {
+
+
+//        BackLog backLog = new BackLog();
+//        backLog.putLog("null", "get merchant by name", "/commentCode/saveCommentCode");
+
         CommentCode commentCode;
         commentCode = commentCodeService.createCommentCode(userid);
         commentCodeService.saveCommentCode(commentCode);
@@ -86,25 +82,9 @@ public class DatabaseController {
         String url = "http://localhost:8081/comment?name="
                 + merchantName
                 + "&tokenid=" + commentCode.getCommentid();
+        LogInfo logInfo = backLog.putLog(userid, merchant.getName() + "ask for a commentURL:[" + url +"]",
+                "/commentCode/saveCommentCode");
+        logInfoService.saveLoginInfo(logInfo);
         return ResponseMsg.successResponse(url);
     }
-
-    /*
-    @GetMapping("/commentCode/checkCommentCode")
-    public boolean commitCommentCode(@RequestParam(value="id") String commentid,
-                                     @RequestParam(value="comment") String comment) {
-        CommentCode commentCode;
-        commentCode = commentCodeService.getCommentCode(commentid);
-
-        if (commentCode.is_used() == false) {
-
-            // 连接智能合约
-            System.out.println(comment);
-
-            commentCodeService.updateCommentCode(commentid);
-            return true;
-        } else {
-            return false;
-        }
-    }*/
 }

@@ -3,11 +3,15 @@ package com.wuhan.tracedemo.controller;
 import com.wuhan.tracedemo.common.ResponseMsg;
 import com.wuhan.tracedemo.common.SalixError;
 import com.wuhan.tracedemo.common.log.SalixLog;
+import com.wuhan.tracedemo.entity.LogInfo;
+import com.wuhan.tracedemo.entity.LogisticInfo;
 import com.wuhan.tracedemo.entity.Merchant;
 import com.wuhan.tracedemo.entity.UserLoginParam;
+import com.wuhan.tracedemo.log.BackLog;
+import com.wuhan.tracedemo.service.LogInfoService;
 import com.wuhan.tracedemo.service.MerchantService;
 import com.wuhan.tracedemo.service.impl.CurrentMerchantService;
-import com.wuhan.tracedemo.service.impl.CurrentUserService;
+
 import com.wuhan.tracedemo.utils.JwtUtils;
 import io.swagger.annotations.Api;
 import org.apache.logging.log4j.LogManager;
@@ -23,11 +27,16 @@ import java.util.Map;
 @CrossOrigin(maxAge = 3600)
 @RestController
 public class LoginController extends BaseController {
+    @Autowired
+    LogInfoService logInfoService;
 
-    private final Logger logger = LogManager.getLogger(LoginController.class);
+    private BackLog backLog = new BackLog();
 
     @Autowired
     MerchantService merchantService;
+
+    private final Logger logger = LogManager.getLogger(LoginController.class);
+
 
     @RequestMapping(value = "/merchantlogin", method = RequestMethod.POST)
     public ResponseMsg login(@RequestBody UserLoginParam userLoginParam){
@@ -51,6 +60,10 @@ public class LoginController extends BaseController {
         System.out.println(jwtToken);
 
         logger.info(merchant.getName() +"登录");
+
+        LogInfo logInfo = backLog.putLog(userLoginParam.getAccount(), merchant.getName() + "login.",
+                "/merchantlogin");
+        logInfoService.saveLoginInfo(logInfo);
 
         return ResponseMsg.successResponse(result);
     }
